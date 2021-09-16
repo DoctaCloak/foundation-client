@@ -13,7 +13,7 @@
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx .",
     "check-format": "npm run prettier -- --list-different",
     "validate": "npm-run-all --parallel check-types check-format lint build",
-    "prepare": "husky install"
+    "setup": "npm install && npm run validate"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
