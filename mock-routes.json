@@ -1,0 +1,8 @@
+[
+  {
+    "endpoint": "/content/:language/common/content.data.json",
+    "responses": {
+      "GET": "./mock-services/content/common.json"
+    }
+  }
+]

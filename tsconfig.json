@@ -1,16 +1,28 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true, // helps with compatibility across OS's
     "importHelpers": true, // helps reduce file output size
-    "removeComments": true, // helps reduce file output size
-    "strict": true, // helps reduce type errors
-    "module": "ES6",
-    "target": "ES6",
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ES2020",
+    "moduleResolution": "node",
     // because we're compiling with Babel instead of TypeScript
     // and we're only using TypeScript for type checking, we'll set "noEmit"
     // to true so running type checking doesn't generate any files.
     "noEmit": true,
-    "baseUrl": "./src"
-  }
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "removeComments": true, // helps reduce file output size
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true, // helps reduce type errors
+    "target": "ES2020"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src", "test-setup/*"]
 }
