@@ -24,5 +24,9 @@ module.exports = {
   snapshotSerializers: ['@emotion/jest/serializer'],
   testEnvironment: 'jest-environment-jsdom',
   testPathIgnorePatterns: ['webpack/*', 'test-setup/*'],
-  watchPlugins: ['jest-watch-select-projects'],
+  watchPlugins: [
+    'jest-watch-select-projects',
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname',
+  ],
 };
