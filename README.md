@@ -42,7 +42,7 @@ One particular library that I am a fan of is [Trading Vue](https://github.com/tv
 
 **September 2021**
 - Project Setup (Done)
-- Financial Charting Library SPIKE Work (In Progress) 
+- **Financial Charting Library SPIKE Work (In Progress)**
 - Begin building out Charting Library
 
 **October 2021**
