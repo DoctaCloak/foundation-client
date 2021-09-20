@@ -52,7 +52,7 @@ One particular library that I am a fan of is [Trading Vue](https://github.com/tv
 - Journaling: Much inspired by [TraderSync](https://tradersync.com/) in order to monitor trading patterns.  I'm not a total fan of trader sync, the same way I don't really like [StocksToTrade](https://stockstotrade.com/) and have stopped using both. 
 
 **November 2021**
-- Begin building out views that consume market data and display in real-time using [mock server](https://github.com/DoctaCloak/foundation-client/blob/release/webpack/mock-router.js) and [mock service](https://github.com/DoctaCloak/foundation-client/tree/release/mock-services/financial-data) data.
+- Begin building out views that consume market data and display in real-time using [mock server](https://github.com/DoctaCloak/foundation-client/blob/release/webpack/mock-router.js) and [mock service](https://github.com/DoctaCloak/foundation-client/tree/release/mock-services/financial) data.
 
 - SPIKE work for integrating TensorFlow.js to do short-term price trend prediction.  This may have to be done server side and relayed in real time through a websocket connection but I want to see if it's not a hurdle to do this client-side.
 
