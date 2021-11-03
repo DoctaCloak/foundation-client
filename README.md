@@ -5,7 +5,7 @@ What is Foundation?
 ## The Story
 Foundation is a tool primarily meant to automate a lot of the research that I have to do when trading stocks on the NYSE.
 
-Normally, if I am getting into a trade with very little prepartion I am typically looking at the market gainers.  I like to see if:
+Normally, if I am getting into a trade with very little preparation I am typically looking at the market gainers.  I like to see if:
 1. A stock has solid technical fundamentals: Not overbought based off of the (RSI), in an upward trend based off of the MACD, as well as the current price in retrospect to the 20 Day Moving Average (MA) and 200 Day Moving Average (MA).
 2. There is some catalyst that is driving volume.  This could be a drug that was recently released in the biotech industry, or a contract earner, or even positive earnings.
 
